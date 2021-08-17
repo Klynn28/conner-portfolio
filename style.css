@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-image: url("https://img.wallpapersafari.com/desktop/1440/900/3/89/53j19Z.jpg"); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: midnightblue;
+    opacity: 0.3;
+}
+
+.header-section {
+    position: relative;
+    padding: 15% 0 10%;
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    text-shadow: 1px 1px 4px rgbs(0, 0, 0, 0.5);
+    font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+    font-size: 500%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+}
+
+nav a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+h2 {
+    margin: 2% 0;
+    font-size: 150%;
+    padding: 250px;
+}
+main {
+    display: flex;
+    flex: 1 1 0;
+    max-width: 1200px;
+    margin: 2% auto;
+}
