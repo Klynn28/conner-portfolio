@@ -25,7 +25,7 @@
     opacity: 0.3;
 }
 
-.header-section {
+.header-section { 
     position: relative;
     padding: 15% 0 10%;
     max-width: 640px;
@@ -34,7 +34,7 @@
     color: white;
     text-shadow: 1px 1px 4px rgbs(0, 0, 0, 0.5);
     font-family: "Montserrat", sans-serif;
-}
+} 
 
 h1 {
     font-size: 500%;
@@ -55,11 +55,12 @@ nav a {
 h2 {
     margin: 2% 0;
     font-size: 150%;
-    padding: 250px;
+    padding-top: 500px;
 }
 main {
-    display: flex;
-    flex: 1 1 0;
     max-width: 1200px;
-    margin: 2% auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
