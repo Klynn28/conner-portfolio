@@ -4,11 +4,11 @@
 }
 
 .header {
-    position: fixed;
+    position: absolute;
     left: 0;
     top: 0;
     width: 100%;
-    background-image: url("https://img.wallpapersafari.com/desktop/1440/900/3/89/53j19Z.jpg"); 
+    background-image: url("https://img.wallpapersafari.com/desktop/1440/900/3/89/53j19Z.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -32,7 +32,6 @@
     margin-left: auto;
     margin-right: auto;
     color: white;
-    text-shadow: 1px 1px 4px rgbs(0, 0, 0, 0.5);
     font-family: "Montserrat", sans-serif;
 } 
 
@@ -52,17 +51,25 @@ nav a {
     text-decoration: none;
 }
 
-h2 {
-    margin: 2% 0;
-    font-size: 150%;
-    padding-top: 500px;
-}
-main {
-
-    margin: 0 auto;
+article {
+    width: 20%;
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    font-size: 50px;
+    margin-right: 10px;
+    color: black;
+    padding: 550px;
+}
+
+p {
+
+}
+
+main {
     background-color: lightgrey;
     
 }
+
+.column {
+
+}
+
