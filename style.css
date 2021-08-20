@@ -88,6 +88,23 @@ article {
 
 .content {
     margin: 60px;
+
+}
+
+#email, #github {
+    margin-left: 90px;
+    padding: 2px 0 2px;
+    font-size: 20px;
+}
+
+#github {
+    padding-bottom: 200px;
+}
+
+.footer {
+    color: mistyrose;
+    text-align: center;
+    padding-top: 20px;
 }
 
 @media screen and (max-width: 1400px){
