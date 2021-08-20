@@ -35,6 +35,10 @@
     font-family: "Montserrat", sans-serif;
 } 
 
+main {
+    background-color: lightgrey;
+}
+
 h1 {
     font-size: 500%;
 }
@@ -52,24 +56,55 @@ nav a {
 }
 
 article {
-    width: 20%;
+    padding-top: 600px;
     display: flex;
-    font-size: 50px;
-    margin-right: 10px;
+    align-items: center;
+    margin: 20px auto;
+    justify-content: center;
+}
+
+#me {
+    float:left;
+    padding: 20px 20px 20px 20px;
+}
+
+#about {
+    font-size: 35px;
     color: black;
-    padding: 550px;
+    margin: -250px 50px 50px 0;
 }
 
-p {
-
+ p {
+    font-size: 20px;
+    margin: 0 0 35px 0;
+    color: midnightblue;
 }
 
-main {
-    background-color: lightgrey;
+#work, #contact {
+    font-size: 35px;
+    padding-top: 70px;
+    margin: 20px;
+}
+
+.content {
+    margin: 60px;
+}
+
+@media screen and (max-width: 1400px){
+    section {
+        width: 50%;
+    }
+}
+
+@media  screen and (max-width: 768px){
+    section, article {
+            width: 100%;
+        }
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
     
-}
-
-.column {
-
-}
 
